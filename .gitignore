@@ -1,1 +1,57 @@
 kode.py
+
+# IDE and editor files
+# (adjust based on your specific IDE)
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# System generated files
+*.pyc  # Python bytecode
+*.class  # Java class files
+*~      # Swap files
+.DS_Store  # Mac data store
+
+# Build output
+build/
+dist/
+output/
+
+# Testing
+.pytest_cache/
+htmlcov/
+.coverage
+
+# Virtual environment
+.venv/
+env/
+
+# Local configuration
+*.local
+local_settings.py  # Example for Django
+
+# **NEW** Environment variables
+.env
+
+# Logs
+*.log
+
+# Package managers
+# (adjust based on your package manager)
+node_modules/
+npm-shrinkwrap.json
+yarn.lock
+
+# Documentation
+docs/_build/
+
+# Temporary notes
+*.md  # You might want to track markdown files
+
+# IDE specific scratch files
+*.scratch
+
+# Ignore all bash history files
+.bash_history
+.zsh_history
