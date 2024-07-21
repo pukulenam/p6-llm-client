@@ -28,7 +28,7 @@ def chat():
             temperature=0.7
         )
 
-        reply = response['choices'][0]['message']['content']
+        reply = response.choices[0].message.content
         return jsonify({"reply": reply})
 
     except Exception as e:
